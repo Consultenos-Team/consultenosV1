@@ -12,12 +12,9 @@ class DAO:
 
     def conectar(self):
         self.con = pymysql.connect(
-            #host = "localhost",
-            #user = "root",
-            #password = "", """
-            host = "170.239.87.71",
-            user = "user_consultenos",
-            password = "jorgeteamo",
+            host = "localhost",
+            user = "root",
+            password = "",        
             db = "db_consultenos"
         )
 
