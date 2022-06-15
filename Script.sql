@@ -85,9 +85,9 @@ CREATE TABLE IF NOT EXISTS `rol` (
 
 -- Volcando datos para la tabla db_consultenos.rol: ~2 rows (aproximadamente)
 INSERT INTO `rol` (`id_rol`, `des_rol`) VALUES
-	(1, 'Administrador'),
-	(2, 'Jefe area'),
-	(3, 'Usuario');
+	(1, 'Jefe de mesa'),
+	(2, 'Ejecutivo de area'),
+	(3, 'Ejecutivo de mesa');
 
 
 -- Volcando estructura para tabla db_consultenos.tipo
